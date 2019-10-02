@@ -1,3 +1,4 @@
+/*PARAGRAPH*/
 p {
     font-size: 1.5em;
     color: hsl(0, 0%, 24%);
@@ -6,15 +7,46 @@ p {
 p:first-child {
     color: deeppink;
 }
-
 p:nth-of-type(2n) {
     font-variant: small-caps;
 }
-
 p:nth-of-type(2) {
     border: solid indigo 5px;
 }
-
 p:last-child {
     text-transform: uppercase;
+}
+/*LINKS*/
+a:first-child:link {
+    color: darkgrey;
+}
+a:first-child:visited {
+    color: green;
+}
+a:first-child:hover {
+    color: yellow;
+}
+a:first-child:active {
+    color: blueviolet;
+}
+a:nth-of-type(2) {
+    text-decoration: none;
+}
+a:nth-of-type(2):hover {
+    text-decoration: underline;
+}
+a:nth-of-type(3) {
+    text-decoration: none;
+    color: black;
+    font-family: "Arial Black", serif;
+    background-color: bisque;
+    border: solid lightgoldenrodyellow 1px;
+    border-radius: 5px;
+    padding: 14px 25px;
+    display: inline-block;
+}
+a:nth-of-type(3):hover {
+    -webkit-box-shadow: 1px 1px 5px 2px rgba(51,25,2,0.5);
+    -moz-box-shadow: 1px 1px 5px 2px rgba(51,25,2,0.5);
+    box-shadow: 1px 1px 5px 2px rgba(51,25,2,0.5);
 }
