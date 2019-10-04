@@ -25,7 +25,7 @@ body {
 #reward {
     font-size: 30px;
 }
-
+/*Flex*/
 .flex-container1 {
     display: flex;
     flex-wrap: nowrap;
@@ -57,4 +57,29 @@ img {
 }
 h1 {
     text-align: center;
+}
+/*TASK 7*/
+#figures div {
+    display: inline-block;
+}
+#circle {
+    width: 250px;
+    height: 250px;
+    background-color: lightsalmon;
+    border-radius: 50%;
+    box-shadow: inset 10px 10px 86px 1px rgba(0,0,0,0.75);
+}
+#triangle {
+    width: 0;
+    border-style: solid;
+    border-width: 0 125px 250px 125px;
+    border-color: transparent transparent coral transparent;
+}
+#rhombus {
+    width: 120px;
+    height: 120px;
+    background: darksalmon;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    margin: 0 0 10px 80px;
 }
